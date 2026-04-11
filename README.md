@@ -27,6 +27,31 @@ GET /{code}
 
 ---
 
+## Project Structure
+
+```bash
+.
+├── cmd
+│   └── api
+│       └── main.go
+├── docker-compose.yml
+├── Dockerfile
+├── .github
+│   └── workflows
+│       └── ci.yml
+└── internal
+    ├── handler
+    │   ├── handler.go
+    │   └── handler_test.go
+    └── store
+        └── store.go
+
+8 directories, 7 files
+
+```
+
+---
+
 ## Tech Stack
 
 | Tool | Purpose |
